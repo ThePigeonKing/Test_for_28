@@ -1,0 +1,9 @@
+digraph {
+	a000 [shape=circle, label="(2, 3i)"];
+	a001 [shape=circle, label="(5, 1i)"];
+	a002 [shape=circle, label="(7, 2i)"];
+	a003 [shape=circle, label="(1, 0i)"];
+	a000 -> a001 [color=crimson, label="33.00l"];
+	a001 -> a002 [color=crimson, label="135.00l"];
+	a001 -> a003 [color=crimson, label="35.00l"];
+}
